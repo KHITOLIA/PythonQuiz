@@ -12,20 +12,6 @@ import atexit
 FOLDER = "user_scores"
 CSV_FILE = os.path.join(FOLDER, "progress.csv")
 
-# # Auto-delete logic
-# def cleanup_csv():
-#     try:
-#         if os.path.exists(CSV_FILE):
-#             os.remove(CSV_FILE)
-#             print("✅ CSV file deleted on exit.")
-#         if os.path.exists(FOLDER) and not os.listdir(FOLDER):
-#             os.rmdir(FOLDER)
-#             print("✅ Folder deleted as it became empty.")
-#     except Exception as e:
-#         print(f"⚠️ Cleanup failed: {e}")
-
-# atexit.register(cleanup_csv)
-
 
 # -------------------------
 # Quiz Questions
@@ -66,181 +52,181 @@ questions = [
         "options": ["A", "a", "65", "Error"],
         "answer": "A"
     },
-    # {
-    #     "question": "Which file mode is used to append to a file?",
-    #     "options": ["r", "w", "a", "x"],
-    #     "answer": "a"
-    # },
-    # {
-    #     "question": "What does open('file.txt', 'r') do?",
-    #     "options": ["Reads file", "Writes to file", "Deletes file", "Creates file"],
-    #     "answer": "Reads file"
-    # },
-    # {
-    #     "question": "Which keyword is used to create a class?",
-    #     "options": ["object", "def", "function", "class"],
-    #     "answer": "class"
-    # },
-    # {
-    #     "question": "What is the first index in a Python list?",
-    #     "options": ["0", "1", "-1", "None"],
-    #     "answer": "0"
-    # },
-    # {
-    #     "question": "What is the output of bool(0)?",
-    #     "options": ["True", "False", "None", "0"],
-    #     "answer": "False"
-    # },
-    # {
-    #     "question": "Which function converts a string to an integer?",
-    #     "options": ["int()", "str()", "float()", "string()"],
-    #     "answer": "int()"
-    # },
-    # {
-    #     "question": "What is used to define a dictionary?",
-    #     "options": ["()", "[]", "{}", "<>"],
-    #     "answer": "{}"
-    # },
-    # {
-    #     "question": "What does dict.get() do?",
-    #     "options": ["Deletes key", "Returns value for key, or None if not found", "Adds key", "None"],
-    #     "answer": "Returns value for key, or None if not found"
-    # },
-    # {
-    #     "question": "Which keyword is used to define a lambda function?",
-    #     "options": ["function", "def", "lambda", "fun"],
-    #     "answer": "lambda"
-    # },
-    # {
-    #     "question": "Which method is used to count occurrences in a list?",
-    #     "options": ["index()", "find()", "count()", "search()"],
-    #     "answer": "count()"
-    # },
-    # {
-    #     "question": "What is the correct way to define a tuple?",
-    #     "options": ["[1, 2]", "(1, 2)", "{1, 2}", "<1, 2>"],
-    #     "answer": "(1, 2)"
-    # },
-    # {
-    #     "question": "What will be the output of len((1,2,3))?",
-    #     "options": ["2", "3", "4", "Error"],
-    #     "answer": "3"
-    # },
-    # {
-    #     "question": "What will print('Python' * 2) output?",
-    #     "options": ["PythonPython", "Python 2", "Error", "Python"],
-    #     "answer": "PythonPython"
-    # },
-    # {
-    #     "question": "Which of the following is used for logical AND?",
-    #     "options": ["&&", "and", "||", "&"],
-    #     "answer": "and"
-    # },
-    # {
-    #     "question": "What is the output of 'Hello'[1]?",
-    #     "options": ["H", "e", "l", "Error"],
-    #     "answer": "e"
-    # },
-    # {
-    #     "question": "How do you remove an item from a set?",
-    #     "options": ["delete()", "remove()", "pop()", "erase()"],
-    #     "answer": "remove()"
-    # },
-    # {
-    #     "question": "What is the data type of True?",
-    #     "options": ["int", "str", "bool", "float"],
-    #     "answer": "bool"
-    # },
-    # {
-    #     "question": "Which module provides mathematical functions?",
-    #     "options": ["maths", "calculate", "math", "numeric"],
-    #     "answer": "math"
-    # },
-    # {
-    #     "question": "What is the purpose of 'elif'?",
-    #     "options": ["End of if", "Else if", "Error in if", "None of the above"],
-    #     "answer": "Else if"
-    # },
-    # {
-    #     "question": "What will print(5 > 3 and 2 < 4) output?",
-    #     "options": ["False", "True", "Error", "None"],
-    #     "answer": "True"
-    # },
-    # {
-    #     "question": "How do you import a module named 'os'?",
-    #     "options": ["include os", "import os", "use os", "require os"],
-    #     "answer": "import os"
-    # },
-    # {
-    #     "question": "What is the purpose of the 'finally' block in try-except?",
-    #     "options": ["Executes if an error occurs", "Executes always", "Executes if no error", "Skips block"],
-    #     "answer": "Executes always"
-    # },
-    # {
-    #     "question": "Which of the following creates an empty set?",
-    #     "options": ["set = {}", "set = []", "set = set()", "set = ()"],
-    #     "answer": "set = set()"
-    # },
-    # {
-    #     "question": "What is the output of [1,2,3] * 2?",
-    #     "options": ["[1,2,3,1,2,3]", "[2,4,6]", "Error", "[1,2,3,2]"],
-    #     "answer": "[1,2,3,1,2,3]"
-    # },
-    # {
-    #     "question": "What method is used to sort a list in place?",
-    #     "options": ["sort()", "sorted()", "order()", "arrange()"],
-    #     "answer": "sort()"
-    # },
-    # {
-    #     "question": "What is the output of 'Python'.replace('o', 'O')?",
-    #     "options": ["PythOn", "Pythn", "PythoN", "Error"],
-    #     "answer": "PythOn"
-    # },
-    # {
-    #     "question": "Which operator is used to concatenate strings?",
-    #     "options": ["*", "+", "-", "/"],
-    #     "answer": "+"
-    # },
-    # {
-    #     "question": "What is a docstring in Python?",
-    #     "options": ["A single-line comment", "A multi-line comment", "A documentation string for modules/functions/classes", "An error message"],
-    #     "answer": "A documentation string for modules/functions/classes"
-    # },
-    # {
-    #     "question": "What is the output of 7 / 2?",
-    #     "options": ["3", "3.5", "4", "Error"],
-    #     "answer": "3.5"
-    # },
-    # {
-    #     "question": "How do you create an empty dictionary?",
-    #     "options": ["dict = ()", "dict = []", "dict = {}", "dict = dict()"],
-    #     "answer": "dict = {}"
-    # },
-    # {
-    #     "question": "What does 'continue' do in a loop?",
-    #     "options": ["Ends the loop", "Skips the rest of the current iteration and continues with the next", "Restarts the loop", "Causes an error"],
-    #     "answer": "Skips the rest of the current iteration and continues with the next"
-    # },
-    # {
-    #     "question": "Which function converts a number to a string?",
-    #     "options": ["int()", "str()", "float()", "string()"],
-    #     "answer": "str()"
-    # },
-    # {
-    #     "question": "What is the output of min(10, 20, 5)?",
-    #     "options": ["10", "20", "5", "Error"],
-    #     "answer": "5"
-    # },
-    # {
-    #     "question": "What is the output of max([1, 5, 2])?",
-    #     "options": ["1", "5", "2", "Error"],
-    #     "answer": "5"
-    # },
-    # {
-    #     "question": "How do you check if an item exists in a list?",
-    #     "options": ["item in list", "list.contains(item)", "list.has(item)", "check(list, item)"],
-    #     "answer": "item in list"
-    # },
+    {
+        "question": "Which file mode is used to append to a file?",
+        "options": ["r", "w", "a", "x"],
+        "answer": "a"
+    },
+    {
+        "question": "What does open('file.txt', 'r') do?",
+        "options": ["Reads file", "Writes to file", "Deletes file", "Creates file"],
+        "answer": "Reads file"
+    },
+    {
+        "question": "Which keyword is used to create a class?",
+        "options": ["object", "def", "function", "class"],
+        "answer": "class"
+    },
+    {
+        "question": "What is the first index in a Python list?",
+        "options": ["0", "1", "-1", "None"],
+        "answer": "0"
+    },
+    {
+        "question": "What is the output of bool(0)?",
+        "options": ["True", "False", "None", "0"],
+        "answer": "False"
+    },
+    {
+        "question": "Which function converts a string to an integer?",
+        "options": ["int()", "str()", "float()", "string()"],
+        "answer": "int()"
+    },
+    {
+        "question": "What is used to define a dictionary?",
+        "options": ["()", "[]", "{}", "<>"],
+        "answer": "{}"
+    },
+    {
+        "question": "What does dict.get() do?",
+        "options": ["Deletes key", "Returns value for key, or None if not found", "Adds key", "None"],
+        "answer": "Returns value for key, or None if not found"
+    },
+    {
+        "question": "Which keyword is used to define a lambda function?",
+        "options": ["function", "def", "lambda", "fun"],
+        "answer": "lambda"
+    },
+    {
+        "question": "Which method is used to count occurrences in a list?",
+        "options": ["index()", "find()", "count()", "search()"],
+        "answer": "count()"
+    },
+    {
+        "question": "What is the correct way to define a tuple?",
+        "options": ["[1, 2]", "(1, 2)", "{1, 2}", "<1, 2>"],
+        "answer": "(1, 2)"
+    },
+    {
+        "question": "What will be the output of len((1,2,3))?",
+        "options": ["2", "3", "4", "Error"],
+        "answer": "3"
+    },
+    {
+        "question": "What will print('Python' * 2) output?",
+        "options": ["PythonPython", "Python 2", "Error", "Python"],
+        "answer": "PythonPython"
+    },
+    {
+        "question": "Which of the following is used for logical AND?",
+        "options": ["&&", "and", "||", "&"],
+        "answer": "and"
+    },
+    {
+        "question": "What is the output of 'Hello'[1]?",
+        "options": ["H", "e", "l", "Error"],
+        "answer": "e"
+    },
+    {
+        "question": "How do you remove an item from a set?",
+        "options": ["delete()", "remove()", "pop()", "erase()"],
+        "answer": "remove()"
+    },
+    {
+        "question": "What is the data type of True?",
+        "options": ["int", "str", "bool", "float"],
+        "answer": "bool"
+    },
+    {
+        "question": "Which module provides mathematical functions?",
+        "options": ["maths", "calculate", "math", "numeric"],
+        "answer": "math"
+    },
+    {
+        "question": "What is the purpose of 'elif'?",
+        "options": ["End of if", "Else if", "Error in if", "None of the above"],
+        "answer": "Else if"
+    },
+    {
+        "question": "What will print(5 > 3 and 2 < 4) output?",
+        "options": ["False", "True", "Error", "None"],
+        "answer": "True"
+    },
+    {
+        "question": "How do you import a module named 'os'?",
+        "options": ["include os", "import os", "use os", "require os"],
+        "answer": "import os"
+    },
+    {
+        "question": "What is the purpose of the 'finally' block in try-except?",
+        "options": ["Executes if an error occurs", "Executes always", "Executes if no error", "Skips block"],
+        "answer": "Executes always"
+    },
+    {
+        "question": "Which of the following creates an empty set?",
+        "options": ["set = {}", "set = []", "set = set()", "set = ()"],
+        "answer": "set = set()"
+    },
+    {
+        "question": "What is the output of [1,2,3] * 2?",
+        "options": ["[1,2,3,1,2,3]", "[2,4,6]", "Error", "[1,2,3,2]"],
+        "answer": "[1,2,3,1,2,3]"
+    },
+    {
+        "question": "What method is used to sort a list in place?",
+        "options": ["sort()", "sorted()", "order()", "arrange()"],
+        "answer": "sort()"
+    },
+    {
+        "question": "What is the output of 'Python'.replace('o', 'O')?",
+        "options": ["PythOn", "Pythn", "PythoN", "Error"],
+        "answer": "PythOn"
+    },
+    {
+        "question": "Which operator is used to concatenate strings?",
+        "options": ["*", "+", "-", "/"],
+        "answer": "+"
+    },
+    {
+        "question": "What is a docstring in Python?",
+        "options": ["A single-line comment", "A multi-line comment", "A documentation string for modules/functions/classes", "An error message"],
+        "answer": "A documentation string for modules/functions/classes"
+    },
+    {
+        "question": "What is the output of 7 / 2?",
+        "options": ["3", "3.5", "4", "Error"],
+        "answer": "3.5"
+    },
+    {
+        "question": "How do you create an empty dictionary?",
+        "options": ["dict = ()", "dict = []", "dict = {}", "dict = dict()"],
+        "answer": "dict = {}"
+    },
+    {
+        "question": "What does 'continue' do in a loop?",
+        "options": ["Ends the loop", "Skips the rest of the current iteration and continues with the next", "Restarts the loop", "Causes an error"],
+        "answer": "Skips the rest of the current iteration and continues with the next"
+    },
+    {
+        "question": "Which function converts a number to a string?",
+        "options": ["int()", "str()", "float()", "string()"],
+        "answer": "str()"
+    },
+    {
+        "question": "What is the output of min(10, 20, 5)?",
+        "options": ["10", "20", "5", "Error"],
+        "answer": "5"
+    },
+    {
+        "question": "What is the output of max([1, 5, 2])?",
+        "options": ["1", "5", "2", "Error"],
+        "answer": "5"
+    },
+    {
+        "question": "How do you check if an item exists in a list?",
+        "options": ["item in list", "list.contains(item)", "list.has(item)", "check(list, item)"],
+        "answer": "item in list"
+    },
     # {
     #     "question": "What is the output of '10' + '20'?",
     #     "options": ["30", "1020", "Error", "10 20"],
