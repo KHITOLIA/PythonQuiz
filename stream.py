@@ -227,46 +227,46 @@ questions = [
         "options": ["item in list", "list.contains(item)", "list.has(item)", "check(list, item)"],
         "answer": "item in list"
     },
-    # {
-    #     "question": "What is the output of '10' + '20'?",
-    #     "options": ["30", "1020", "Error", "10 20"],
-    #     "answer": "1020"
-    # },
-    # {
-    #     "question": "Which method is used to remove the last element from a list?",
-    #     "options": ["delete_last()", "remove_last()", "pop()", "cut()"],
-    #     "answer": "pop()"
-    # },
-    # {
-    #     "question": "What is the purpose of the 'self' parameter in a class method?",
-    #     "options": ["Refers to the class itself", "Refers to the instance of the class", "Is a keyword for static methods", "None of the above"],
-    #     "answer": "Refers to the instance of the class"
-    # },
-    # {
-    #     "question": "Which of the following is NOT a valid Python comparison operator?",
-    #     "options": ["<=", ">=", "=>", "=="],
-    #     "answer": "=>"
-    # },
-    # {
-    #     "question": "What is the output of 5 ** 2?",
-    #     "options": ["10", "25", "7", "Error"],
-    #     "answer": "25"
-    # },
-    # {
-    #     "question": "What is the output of 'Python'.upper()?",
-    #     "options": ["Python", "python", "PYTHON", "Error"],
-    #     "answer": "PYTHON"
-    # },
-    # {
-    #     "question": "How do you create a multiline string?",
-    #     "options": ["Using single quotes ''", "Using double quotes \"\"", "Using triple quotes ''' ''' or \"\"\" \"\"\"", "Using backticks ``"],
-    #     "answer": "Using triple quotes ''' ''' or \"\"\" \"\"\""
-    # },
-    # {
-    #     "question": "What is the purpose of the 'else' block with a 'for' loop?",
-    #     "options": ["Executes if the loop is empty", "Executes if the loop completes without a 'break'", "Executes after every iteration", "Executes if an error occurs"],
-    #     "answer": "Executes if the loop completes without a 'break'"
-    # },
+    {
+        "question": "What is the output of '10' + '20'?",
+        "options": ["30", "1020", "Error", "10 20"],
+        "answer": "1020"
+    },
+    {
+        "question": "Which method is used to remove the last element from a list?",
+        "options": ["delete_last()", "remove_last()", "pop()", "cut()"],
+        "answer": "pop()"
+    },
+    {
+        "question": "What is the purpose of the 'self' parameter in a class method?",
+        "options": ["Refers to the class itself", "Refers to the instance of the class", "Is a keyword for static methods", "None of the above"],
+        "answer": "Refers to the instance of the class"
+    },
+    {
+        "question": "Which of the following is NOT a valid Python comparison operator?",
+        "options": ["<=", ">=", "=>", "=="],
+        "answer": "=>"
+    },
+    {
+        "question": "What is the output of 5 ** 2?",
+        "options": ["10", "25", "7", "Error"],
+        "answer": "25"
+    },
+    {
+        "question": "What is the output of 'Python'.upper()?",
+        "options": ["Python", "python", "PYTHON", "Error"],
+        "answer": "PYTHON"
+    },
+    {
+        "question": "How do you create a multiline string?",
+        "options": ["Using single quotes ''", "Using double quotes \"\"", "Using triple quotes ''' ''' or \"\"\" \"\"\"", "Using backticks ``"],
+        "answer": "Using triple quotes ''' ''' or \"\"\" \"\"\""
+    },
+    {
+        "question": "What is the purpose of the 'else' block with a 'for' loop?",
+        "options": ["Executes if the loop is empty", "Executes if the loop completes without a 'break'", "Executes after every iteration", "Executes if an error occurs"],
+        "answer": "Executes if the loop completes without a 'break'"
+    },
     # {
     #     "question": "Which of the following is a dynamically typed language?",
     #     "options": ["C++", "Java", "Python", "C#"],
