@@ -201,7 +201,7 @@ questions = [
     #     "question": "How do you create an empty dictionary?",
     #     "options": ["dict = ()", "dict = []", "dict = {}", "dict = dict()"],
     #     "answer": "dict = {}"
-    },
+    # },
     {
         "question": "What does 'continue' do in a loop?",
         "options": ["Ends the loop", "Skips the rest of the current iteration and continues with the next", "Restarts the loop", "Causes an error"],
@@ -828,5 +828,6 @@ def main():
 # -------------------------
 if __name__ == "__main__":
     main()
+
 
 
