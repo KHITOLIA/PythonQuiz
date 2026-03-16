@@ -202,176 +202,176 @@ questions = [
     #     "options": ["dict = ()", "dict = []", "dict = {}", "dict = dict()"],
     #     "answer": "dict = {}"
     # },
-    {
-        "question": "What does 'continue' do in a loop?",
-        "options": ["Ends the loop", "Skips the rest of the current iteration and continues with the next", "Restarts the loop", "Causes an error"],
-        "answer": "Skips the rest of the current iteration and continues with the next"
-    },
-    {
-        "question": "Which function converts a number to a string?",
-        "options": ["int()", "str()", "float()", "string()"],
-        "answer": "str()"
-    },
-    {
-        "question": "What is the output of min(10, 20, 5)?",
-        "options": ["10", "20", "5", "Error"],
-        "answer": "5"
-    },
-    {
-        "question": "What is the output of max([1, 5, 2])?",
-        "options": ["1", "5", "2", "Error"],
-        "answer": "5"
-    },
-    {
-        "question": "How do you check if an item exists in a list?",
-        "options": ["item in list", "list.contains(item)", "list.has(item)", "check(list, item)"],
-        "answer": "item in list"
-    },
-    {
-        "question": "What is the output of '10' + '20'?",
-        "options": ["30", "1020", "Error", "10 20"],
-        "answer": "1020"
-    },
-    {
-        "question": "Which method is used to remove the last element from a list?",
-        "options": ["delete_last()", "remove_last()", "pop()", "cut()"],
-        "answer": "pop()"
-    },
-    {
-        "question": "What is the purpose of the 'self' parameter in a class method?",
-        "options": ["Refers to the class itself", "Refers to the instance of the class", "Is a keyword for static methods", "None of the above"],
-        "answer": "Refers to the instance of the class"
-    },
-    {
-        "question": "Which of the following is NOT a valid Python comparison operator?",
-        "options": ["<=", ">=", "=>", "=="],
-        "answer": "=>"
-    },
-    {
-        "question": "What is the output of 5 ** 2?",
-        "options": ["10", "25", "7", "Error"],
-        "answer": "25"
-    },
-    {
-        "question": "What is the output of 'Python'.upper()?",
-        "options": ["Python", "python", "PYTHON", "Error"],
-        "answer": "PYTHON"
-    },
-    {
-        "question": "How do you create a multiline string?",
-        "options": ["Using single quotes ''", "Using double quotes \"\"", "Using triple quotes ''' ''' or \"\"\" \"\"\"", "Using backticks ``"],
-        "answer": "Using triple quotes ''' ''' or \"\"\" \"\"\""
-    },
-    {
-        "question": "What is the purpose of the 'else' block with a 'for' loop?",
-        "options": ["Executes if the loop is empty", "Executes if the loop completes without a 'break'", "Executes after every iteration", "Executes if an error occurs"],
-        "answer": "Executes if the loop completes without a 'break'"
-    },
-    {
-        "question": "Which of the following is a dynamically typed language?",
-        "options": ["C++", "Java", "Python", "C#"],
-        "answer": "Python"
-    },
-    {
-        "question": "What does 'pip' stand for?",
-        "options": ["Python Install Packages", "Preferred Installer Program", "Package Installer for Python", "Python In Progress"],
-        "answer": "Preferred Installer Program"
-    },
-    {
-        "question": "What is the output of round(3.7)?",
-        "options": ["3", "4", "3.0", "Error"],
-        "answer": "4"
-    },
-    {
-        "question": "How do you check the type of a variable 'x'?",
-        "options": ["get_type(x)", "typeof(x)", "type(x)", "x.type()"],
-        "answer": "type(x)"
-    },
-    {
-        "question": "What is the purpose of 'sys' module?",
-        "options": ["System administration", "System-specific parameters and functions", "String manipulation", "File operations"],
-        "answer": "System-specific parameters and functions"
-    },
-    {
-        "question": "What is the output of [1, 2, 3][0]?",
-        "options": ["1", "2", "3", "Error"],
-        "answer": "1"
-    },
-    {
-        "question": "Which of the following is NOT a Python built-in function?",
-        "options": ["print()", "len()", "custom_function()", "input()"],
-        "answer": "custom_function()"
-    },
-    {
-        "question": "How do you convert a list to a tuple?",
-        "options": ["list.to_tuple()", "tuple(list)", "as_tuple(list)", "convert_to_tuple(list)"],
-        "answer": "tuple(list)"
-    },
-    {
-        "question": "What is the output of 'hello'.capitalize()?",
-        "options": ["Hello", "hello", "HELLO", "Error"],
-        "answer": "Hello"
-    },
-    {
-        "question": "Which data structure stores key-value pairs?",
-        "options": ["List", "Tuple", "Set", "Dictionary"],
-        "answer": "Dictionary"
-    },
-    {
-        "question": "What is list slicing?",
-        "options": ["Removing elements from a list", "Adding elements to a list", "Extracting a portion of a list", "Sorting a list"],
-        "answer": "Extracting a portion of a list"
-    },
-    {
-        "question": "What is the output of abs(-5)?",
-        "options": ["-5", "5", "0", "Error"],
-        "answer": "5"
-    },
-    {
-        "question": "Which method is used to remove all elements from a list?",
-        "options": ["clear()", "delete_all()", "empty()", "remove_all()"],
-        "answer": "clear()"
-    },
-    {
-        "question": "What is a virtual environment in Python?",
-        "options": ["A cloud server for Python", "An isolated Python environment for projects", "A debugging tool", "A graphics library"],
-        "answer": "An isolated Python environment for projects"
-    },
-    {
-        "question": "What is the output of 10 > 5 or 3 < 1?",
-        "options": ["True", "False", "Error", "None"],
-        "answer": "True"
-    },
-    {
-        "question": "Which of the following is a mutable data type?",
-        "options": ["string", "tuple", "list", "int"],
-        "answer": "list"
-    },
-    {
-        "question": "What does the 'with' statement ensure in file handling?",
-        "options": ["File is always written to", "File is always read", "File is automatically closed", "File is encrypted"],
-        "answer": "File is automatically closed"
-    },
-    {
-        "question": "What is the output of print('Python'[2:5])?",
-        "options": ["tho", "yth", "thon", "Error"],
-        "answer": "tho"
-    },
-    {
-        "question": "Which method is used to add multiple elements to a set?",
-        "options": ["add_all()", "update()", "extend()", "insert_many()"],
-        "answer": "update()"
-    },
-    {
-        "question": "What is the purpose of 'import as'?",
-        "options": ["To import all modules", "To give an alias to an imported module", "To import a module as a different data type", "To import specific functions"],
-        "answer": "To give an alias to an imported module"
-    },
-    {
-        "question": "What is the output of '1' == 1?",
-        "options": ["True", "False", "Error", "None"],
-        "answer": "False"
-    },
+    # {
+    #     "question": "What does 'continue' do in a loop?",
+    #     "options": ["Ends the loop", "Skips the rest of the current iteration and continues with the next", "Restarts the loop", "Causes an error"],
+    #     "answer": "Skips the rest of the current iteration and continues with the next"
+    # },
+    # {
+    #     "question": "Which function converts a number to a string?",
+    #     "options": ["int()", "str()", "float()", "string()"],
+    #     "answer": "str()"
+    # },
+    # {
+    #     "question": "What is the output of min(10, 20, 5)?",
+    #     "options": ["10", "20", "5", "Error"],
+    #     "answer": "5"
+    # },
+    # {
+    #     "question": "What is the output of max([1, 5, 2])?",
+    #     "options": ["1", "5", "2", "Error"],
+    #     "answer": "5"
+    # },
+    # {
+    #     "question": "How do you check if an item exists in a list?",
+    #     "options": ["item in list", "list.contains(item)", "list.has(item)", "check(list, item)"],
+    #     "answer": "item in list"
+    # },
+    # {
+    #     "question": "What is the output of '10' + '20'?",
+    #     "options": ["30", "1020", "Error", "10 20"],
+    #     "answer": "1020"
+    # },
+    # {
+    #     "question": "Which method is used to remove the last element from a list?",
+    #     "options": ["delete_last()", "remove_last()", "pop()", "cut()"],
+    #     "answer": "pop()"
+    # },
+    # {
+    #     "question": "What is the purpose of the 'self' parameter in a class method?",
+    #     "options": ["Refers to the class itself", "Refers to the instance of the class", "Is a keyword for static methods", "None of the above"],
+    #     "answer": "Refers to the instance of the class"
+    # },
+    # {
+    #     "question": "Which of the following is NOT a valid Python comparison operator?",
+    #     "options": ["<=", ">=", "=>", "=="],
+    #     "answer": "=>"
+    # },
+    # {
+    #     "question": "What is the output of 5 ** 2?",
+    #     "options": ["10", "25", "7", "Error"],
+    #     "answer": "25"
+    # },
+    # {
+    #     "question": "What is the output of 'Python'.upper()?",
+    #     "options": ["Python", "python", "PYTHON", "Error"],
+    #     "answer": "PYTHON"
+    # },
+    # {
+    #     "question": "How do you create a multiline string?",
+    #     "options": ["Using single quotes ''", "Using double quotes \"\"", "Using triple quotes ''' ''' or \"\"\" \"\"\"", "Using backticks ``"],
+    #     "answer": "Using triple quotes ''' ''' or \"\"\" \"\"\""
+    # },
+    # {
+    #     "question": "What is the purpose of the 'else' block with a 'for' loop?",
+    #     "options": ["Executes if the loop is empty", "Executes if the loop completes without a 'break'", "Executes after every iteration", "Executes if an error occurs"],
+    #     "answer": "Executes if the loop completes without a 'break'"
+    # },
+    # {
+    #     "question": "Which of the following is a dynamically typed language?",
+    #     "options": ["C++", "Java", "Python", "C#"],
+    #     "answer": "Python"
+    # },
+    # {
+    #     "question": "What does 'pip' stand for?",
+    #     "options": ["Python Install Packages", "Preferred Installer Program", "Package Installer for Python", "Python In Progress"],
+    #     "answer": "Preferred Installer Program"
+    # },
+    # {
+    #     "question": "What is the output of round(3.7)?",
+    #     "options": ["3", "4", "3.0", "Error"],
+    #     "answer": "4"
+    # },
+    # {
+    #     "question": "How do you check the type of a variable 'x'?",
+    #     "options": ["get_type(x)", "typeof(x)", "type(x)", "x.type()"],
+    #     "answer": "type(x)"
+    # },
+    # {
+    #     "question": "What is the purpose of 'sys' module?",
+    #     "options": ["System administration", "System-specific parameters and functions", "String manipulation", "File operations"],
+    #     "answer": "System-specific parameters and functions"
+    # },
+    # {
+    #     "question": "What is the output of [1, 2, 3][0]?",
+    #     "options": ["1", "2", "3", "Error"],
+    #     "answer": "1"
+    # },
+    # {
+    #     "question": "Which of the following is NOT a Python built-in function?",
+    #     "options": ["print()", "len()", "custom_function()", "input()"],
+    #     "answer": "custom_function()"
+    # },
+    # {
+    #     "question": "How do you convert a list to a tuple?",
+    #     "options": ["list.to_tuple()", "tuple(list)", "as_tuple(list)", "convert_to_tuple(list)"],
+    #     "answer": "tuple(list)"
+    # },
+    # {
+    #     "question": "What is the output of 'hello'.capitalize()?",
+    #     "options": ["Hello", "hello", "HELLO", "Error"],
+    #     "answer": "Hello"
+    # },
+    # {
+    #     "question": "Which data structure stores key-value pairs?",
+    #     "options": ["List", "Tuple", "Set", "Dictionary"],
+    #     "answer": "Dictionary"
+    # },
+    # {
+    #     "question": "What is list slicing?",
+    #     "options": ["Removing elements from a list", "Adding elements to a list", "Extracting a portion of a list", "Sorting a list"],
+    #     "answer": "Extracting a portion of a list"
+    # },
+    # {
+    #     "question": "What is the output of abs(-5)?",
+    #     "options": ["-5", "5", "0", "Error"],
+    #     "answer": "5"
+    # },
+    # {
+    #     "question": "Which method is used to remove all elements from a list?",
+    #     "options": ["clear()", "delete_all()", "empty()", "remove_all()"],
+    #     "answer": "clear()"
+    # },
+    # {
+    #     "question": "What is a virtual environment in Python?",
+    #     "options": ["A cloud server for Python", "An isolated Python environment for projects", "A debugging tool", "A graphics library"],
+    #     "answer": "An isolated Python environment for projects"
+    # },
+    # {
+    #     "question": "What is the output of 10 > 5 or 3 < 1?",
+    #     "options": ["True", "False", "Error", "None"],
+    #     "answer": "True"
+    # },
+    # {
+    #     "question": "Which of the following is a mutable data type?",
+    #     "options": ["string", "tuple", "list", "int"],
+    #     "answer": "list"
+    # },
+    # {
+    #     "question": "What does the 'with' statement ensure in file handling?",
+    #     "options": ["File is always written to", "File is always read", "File is automatically closed", "File is encrypted"],
+    #     "answer": "File is automatically closed"
+    # },
+    # {
+    #     "question": "What is the output of print('Python'[2:5])?",
+    #     "options": ["tho", "yth", "thon", "Error"],
+    #     "answer": "tho"
+    # },
+    # {
+    #     "question": "Which method is used to add multiple elements to a set?",
+    #     "options": ["add_all()", "update()", "extend()", "insert_many()"],
+    #     "answer": "update()"
+    # },
+    # {
+    #     "question": "What is the purpose of 'import as'?",
+    #     "options": ["To import all modules", "To give an alias to an imported module", "To import a module as a different data type", "To import specific functions"],
+    #     "answer": "To give an alias to an imported module"
+    # },
+    # {
+    #     "question": "What is the output of '1' == 1?",
+    #     "options": ["True", "False", "Error", "None"],
+    #     "answer": "False"
+    # },
     {
         "question": "What is the purpose of the 'zip()' function?",
         "options": ["To compress files", "To combine multiple iterables into an iterator of tuples", "To extract files", "To create a ZIP archive"],
