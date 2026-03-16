@@ -372,86 +372,86 @@ questions = [
     #     "options": ["True", "False", "Error", "None"],
     #     "answer": "False"
     # },
-    {
-        "question": "What is the purpose of the 'zip()' function?",
-        "options": ["To compress files", "To combine multiple iterables into an iterator of tuples", "To extract files", "To create a ZIP archive"],
-        "answer": "To combine multiple iterables into an iterator of tuples"
-    },
-    {
-        "question": "What is the output of len({'a':1, 'b':2})?",
-        "options": ["1", "2", "3", "Error"],
-        "answer": "2"
-    },
-    {
-        "question": "Which of the following is a correct way to define a multiline comment?",
-        "options": ["# This is a comment", "/* This is a comment */", "''' This is a comment '''", "// This is a comment"],
-        "answer": "''' This is a comment '''"
-    },
-    {
-        "question": "What does the 'isinstance()' function do?",
-        "options": ["Checks if an object is an instance of a class", "Checks if two objects are identical", "Checks if an object is iterable", "Checks if an object is immutable"],
-        "answer": "Checks if an object is an instance of a class"
-    },
-    {
-        "question": "What is the output of print(type('Hello'))?",
-        "options": ["<class 'int'>", "<class 'str'>", "<class 'float'>", "<class 'bool'>"],
-        "answer": "<class 'str'>"
-    },
-    {
-        "question": "What does a negative index in a list do?",
-        "options": ["Accesses elements from the beginning", "Accesses elements from the end", "Causes an error", "Converts to a positive index"],
-        "answer": "Accesses elements from the end"
-    },
-    {
-        "question": "Which method is used to add an item to a specific position in a list?",
-        "options": ["append()", "add()", "insert()", "put()"],
-        "answer": "insert()"
-    },
-    {
-        "question": "What is the output of 2 ** 3 ** 2?",
-        "options": ["64", "512", "128", "Error"],
-        "answer": "512" # Evaluates as 2 ** (3 ** 2) = 2 ** 9 = 512
-    },
-    {
-        "question": "What is the purpose of a 'try-except' block?",
-        "options": ["To define a new function", "To handle errors and exceptions", "To create a loop", "To declare variables"],
-        "answer": "To handle errors and exceptions"
-    },
-    {
-        "question": "Which function is used to read a whole file's content?",
-        "options": ["read_line()", "read_all()", "read()", "get_content()"],
-        "answer": "read()"
-    },
-    {
-        "question": "What is the output of 'Python'.find('th')?",
-        "options": ["2", "3", "Error", "1"],
-        "answer": "2"
-    },
-    {
-        "question": "What is the purpose of 'yield' keyword?",
-        "options": ["To return a value and terminate a function", "To create a generator", "To raise an exception", "To define a class"],
-        "answer": "To create a generator"
-    },
-    {
-        "question": "How do you get all keys from a dictionary 'my_dict'?",
-        "options": ["my_dict.get_keys()", "my_dict.keys()", "keys(my_dict)", "my_dict.all_keys()"],
-        "answer": "my_dict.keys()"
-    },
-    {
-        "question": "What is the output of [1, 2, 3] + [4, 5, 6]?",
-        "options": ["[1, 2, 3, 4, 5, 6]", "[5, 7, 9]", "Error", "[[1,2,3],[4,5,6]]"],
-        "answer": "[1, 2, 3, 4, 5, 6]"
-    },
-    {
-        "question": "Which of the following is NOT a Python collection type?",
-        "options": ["list", "tuple", "array", "set"],
-        "answer": "array" # 'array' isn't a built-in core type like list, tuple, set, dict. array.array exists but is from a module.
-    },
-    {
-        "question": "What does 'None' represent in Python?",
-        "options": ["Zero", "An empty string", "The absence of a value", "False"],
-        "answer": "The absence of a value"
-    },
+    # {
+    #     "question": "What is the purpose of the 'zip()' function?",
+    #     "options": ["To compress files", "To combine multiple iterables into an iterator of tuples", "To extract files", "To create a ZIP archive"],
+    #     "answer": "To combine multiple iterables into an iterator of tuples"
+    # },
+    # {
+    #     "question": "What is the output of len({'a':1, 'b':2})?",
+    #     "options": ["1", "2", "3", "Error"],
+    #     "answer": "2"
+    # },
+    # {
+    #     "question": "Which of the following is a correct way to define a multiline comment?",
+    #     "options": ["# This is a comment", "/* This is a comment */", "''' This is a comment '''", "// This is a comment"],
+    #     "answer": "''' This is a comment '''"
+    # },
+    # {
+    #     "question": "What does the 'isinstance()' function do?",
+    #     "options": ["Checks if an object is an instance of a class", "Checks if two objects are identical", "Checks if an object is iterable", "Checks if an object is immutable"],
+    #     "answer": "Checks if an object is an instance of a class"
+    # },
+    # {
+    #     "question": "What is the output of print(type('Hello'))?",
+    #     "options": ["<class 'int'>", "<class 'str'>", "<class 'float'>", "<class 'bool'>"],
+    #     "answer": "<class 'str'>"
+    # },
+    # {
+    #     "question": "What does a negative index in a list do?",
+    #     "options": ["Accesses elements from the beginning", "Accesses elements from the end", "Causes an error", "Converts to a positive index"],
+    #     "answer": "Accesses elements from the end"
+    # },
+    # {
+    #     "question": "Which method is used to add an item to a specific position in a list?",
+    #     "options": ["append()", "add()", "insert()", "put()"],
+    #     "answer": "insert()"
+    # },
+    # {
+    #     "question": "What is the output of 2 ** 3 ** 2?",
+    #     "options": ["64", "512", "128", "Error"],
+    #     "answer": "512" # Evaluates as 2 ** (3 ** 2) = 2 ** 9 = 512
+    # },
+    # {
+    #     "question": "What is the purpose of a 'try-except' block?",
+    #     "options": ["To define a new function", "To handle errors and exceptions", "To create a loop", "To declare variables"],
+    #     "answer": "To handle errors and exceptions"
+    # },
+    # {
+    #     "question": "Which function is used to read a whole file's content?",
+    #     "options": ["read_line()", "read_all()", "read()", "get_content()"],
+    #     "answer": "read()"
+    # },
+    # {
+    #     "question": "What is the output of 'Python'.find('th')?",
+    #     "options": ["2", "3", "Error", "1"],
+    #     "answer": "2"
+    # },
+    # {
+    #     "question": "What is the purpose of 'yield' keyword?",
+    #     "options": ["To return a value and terminate a function", "To create a generator", "To raise an exception", "To define a class"],
+    #     "answer": "To create a generator"
+    # },
+    # {
+    #     "question": "How do you get all keys from a dictionary 'my_dict'?",
+    #     "options": ["my_dict.get_keys()", "my_dict.keys()", "keys(my_dict)", "my_dict.all_keys()"],
+    #     "answer": "my_dict.keys()"
+    # },
+    # {
+    #     "question": "What is the output of [1, 2, 3] + [4, 5, 6]?",
+    #     "options": ["[1, 2, 3, 4, 5, 6]", "[5, 7, 9]", "Error", "[[1,2,3],[4,5,6]]"],
+    #     "answer": "[1, 2, 3, 4, 5, 6]"
+    # },
+    # {
+    #     "question": "Which of the following is NOT a Python collection type?",
+    #     "options": ["list", "tuple", "array", "set"],
+    #     "answer": "array" # 'array' isn't a built-in core type like list, tuple, set, dict. array.array exists but is from a module.
+    # },
+    # {
+    #     "question": "What does 'None' represent in Python?",
+    #     "options": ["Zero", "An empty string", "The absence of a value", "False"],
+    #     "answer": "The absence of a value"
+    # },
     {
         "question": "What is the purpose of a constructor in a class?",
         "options": ["To destroy an object", "To initialize an object's state", "To define class methods", "To inherit from another class"],
