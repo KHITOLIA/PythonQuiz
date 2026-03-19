@@ -698,11 +698,11 @@ questions = [
     #     "options": ["2", "2.5", "3", "Error"],
     #     "answer": "2"
     # },
-    # {
-    #     "question": "What is the purpose of the 'help()' function?",
-    #     "options": ["To get help from the Python community", "To display documentation for modules, functions, classes, keywords, etc.", "To find errors in code", "To suggest improvements to code"],
-    #     "answer": "To display documentation for modules, functions, classes, keywords, etc."
-    # }
+    {
+        "question": "What is the purpose of the 'help()' function?",
+        "options": ["To get help from the Python community", "To display documentation for modules, functions, classes, keywords, etc.", "To find errors in code", "To suggest improvements to code"],
+        "answer": "To display documentation for modules, functions, classes, keywords, etc."
+    }
 ]
 
 # -------------------------
