@@ -276,6 +276,7 @@ questions = [
         "question": "What does 'pip' stand for?",
         "options": ["Python Install Packages", "Preferred Installer Program", "Package Installer for Python", "Python In Progress"],
         "answer": "Preferred Installer Program"
+    }
     # },
     # {
     #     "question": "What is the output of round(3.7)?",
