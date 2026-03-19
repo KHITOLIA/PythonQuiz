@@ -513,196 +513,196 @@ questions = [
         "options": ["An object that can be looped over", "A type of error", "A mathematical function", "A variable name"],
         "answer": "An object that can be looped over"
     },
-    {
-        "question": "What is the output of print({}.get('key', 'default'))?",
-        "options": ["None", "key", "default", "Error"],
-        "answer": "default"
-    },
-    {
-        "question": "How do you reverse a list in place?",
-        "options": ["list.reverse()", "list.reversed()", "reverse(list)", "list[::-1]"],
-        "answer": "list.reverse()"
-    },
-    {
-        "question": "What does 'assert' keyword do?",
-        "options": ["Declares a variable", "Checks if a condition is true, raises an AssertionError if not", "Prints a message", "Skips a block of code"],
-        "answer": "Checks if a condition is true, raises an AssertionError if not"
-    },
-    {
-        "question": "What is the output of print(float(5))?",
-        "options": ["5", "5.0", "Error", "0.5"],
-        "answer": "5.0"
-    },
-    {
-        "question": "Which of the following is used to store unique items?",
-        "options": ["List", "Tuple", "Set", "Dictionary"],
-        "answer": "Set"
-    },
-    {
-        "question": "What is a generator in Python?",
-        "options": ["A function that generates random numbers", "A function that returns an iterator", "A class that generates objects", "A built-in data type"],
-        "answer": "A function that returns an iterator"
-    },
-    {
-        "question": "What is the purpose of 'super()' in class inheritance?",
-        "options": ["Calls the current class's method", "Calls the parent class's method", "Calls a global function", "Returns the superclass object"],
-        "answer": "Calls the parent class's method"
-    },
-    {
-        "question": "What is the output of print(list('abc'))?",
-        "options": ["['abc']", "['a', 'b', 'c']", "abc", "Error"],
-        "answer": "['a', 'b', 'c']"
-    },
-    {
-        "question": "Which module is commonly used for working with regular expressions?",
-        "options": ["regex", "re", "pattern", "match"],
-        "answer": "re"
-    },
-    {
-        "question": "What is a lambda function?",
-        "options": ["A named function", "An anonymous function", "A recursive function", "A built-in function"],
-        "answer": "An anonymous function"
-    },
-    {
-        "question": "What is the output of [1, 2, 3][1:3]?",
-        "options": ["[1, 2]", "[2, 3]", "[1, 2, 3]", "Error"],
-        "answer": "[2, 3]"
-    },
-    {
-        "question": "Which of the following correctly opens a file for writing in binary mode?",
-        "options": ["open('file.txt', 'wb')", "open('file.txt', 'b')", "open('file.txt', 'w+')", "open('file.txt', 'binary')"],
-        "answer": "open('file.txt', 'wb')"
-    },
-    {
-        "question": "What is the purpose of 'dir()' function?",
-        "options": ["To get current directory", "To list attributes and methods of an object", "To delete a directory", "To create a directory"],
-        "answer": "To list attributes and methods of an object"
-    },
-    {
-        "question": "What is the output of 'apple'.count('p')?",
-        "options": ["1", "2", "3", "0"],
-        "answer": "2"
-    },
-    {
-        "question": "What is the difference between 'is' and '=='?",
-        "options": ["'is' checks value, '==' checks identity", "'is' checks identity, '==' checks value", "They are interchangeable", "None of the above"],
-        "answer": "'is' checks identity, '==' checks value"
-    },
-    {
-        "question": "What is a module in Python?",
-        "options": ["A single function", "A file containing Python definitions and statements", "A variable type", "A program execution unit"],
-        "answer": "A file containing Python definitions and statements"
-    },
-    {
-        "question": "What is the output of type(1.0)?",
-        "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'Decimal'>"],
-        "answer": "<class 'float'>"
-    },
-    {
-        "question": "Which keyword is used to return a value from a function?",
-        "options": ["send", "yield", "return", "pass"],
-        "answer": "return"
-    },
-    {
-        "question": "What is list comprehension?",
-        "options": ["A way to define a list of functions", "A concise way to create lists", "A method for list manipulation", "A type of list sorting"],
-        "answer": "A concise way to create lists"
-    },
-    {
-        "question": "What is the output of {'a':1, 'b':2}['b']?",
-        "options": ["1", "2", "b", "Error"],
-        "answer": "2"
-    },
-    {
-        "question": "Which statement is used to skip the current iteration of a loop?",
-        "options": ["break", "pass", "continue", "skip"],
-        "answer": "continue"
-    },
-    {
-        "question": "What is the output of print(tuple([1,2,3]))?",
-        "options": ["(1,2,3)", "[1,2,3]", "{1,2,3}", "Error"],
-        "answer": "(1,2,3)"
-    },
-    {
-        "question": "Which function is used to get the current working directory?",
-        "options": ["os.cwd()", "os.get_cwd()", "os.getcwd()", "os.current_dir()"],
-        "answer": "os.getcwd()"
-    },
-    {
-        "question": "What is the output of 'Python'.replace('P', 'J', 1)?",
-        "options": ["Jython", "python", "Python", "Error"],
-        "answer": "Jython"
-    },
-    {
-        "question": "What is the purpose of 'sys.exit()'?",
-        "options": ["To exit a loop", "To exit the Python interpreter", "To exit a function", "To exit a class"],
-        "answer": "To exit the Python interpreter"
-    },
-    {
-        "question": "How do you create a frozen set?",
-        "options": ["frozenset([1,2,3])", "frozen_set(1,2,3)", "set.freeze([1,2,3])", "immutable_set([1,2,3])"],
-        "answer": "frozenset([1,2,3])"
-    },
-    {
-        "question": "What is the output of print(bool(1))?",
-        "options": ["True", "False", "0", "1"],
-        "answer": "True"
-    },
-    {
-        "question": "Which method is used to remove an item from a dictionary by its key?",
-        "options": ["delete()", "remove()", "pop()", "clear()"],
-        "answer": "pop()"
-    },
-    {
-        "question": "What is an argument in a function?",
-        "options": ["The return value of the function", "A variable defined inside the function", "A value passed to the function when it's called", "The name of the function"],
-        "answer": "A value passed to the function when it's called"
-    },
-    {
-        "question": "What is the purpose of the 'global' keyword?",
-        "options": ["To define a function globally", "To access and modify a global variable from inside a function", "To make a variable accessible only within a function", "To declare a new global variable"],
-        "answer": "To access and modify a global variable from inside a function"
-    },
-    {
-        "question": "What is the output of print('Python'.startswith('P'))?",
-        "options": ["True", "False", "Error", "None"],
-        "answer": "True"
-    },
-    {
-        "question": "Which of the following is used to remove whitespace from both ends of a string?",
-        "options": ["trim()", "strip()", "remove_whitespace()", "clean()"],
-        "answer": "strip()"
-    },
-    {
-        "question": "What is the default return value of a Python function if no return statement is used?",
-        "options": ["0", "An empty string", "None", "True"],
-        "answer": "None"
-    },
-    {
-        "question": "What is the output of print(divmod(10, 3))?",
-        "options": ["(3, 1)", "3.33", "1", "Error"],
-        "answer": "(3, 1)"
-    },
-    {
-        "question": "What is the purpose of the 'pass' statement?",
-        "options": ["To raise an error", "To act as a placeholder where a statement is syntactically required but no action is desired", "To terminate a loop", "To skip a line of code"],
-        "answer": "To act as a placeholder where a statement is syntactically required but no action is desired"
-    },
-    {
-        "question": "Which method is used to convert all characters in a string to uppercase?",
-        "options": ["upper()", "to_upper()", "uppercase()", "capitalize()"],
-        "answer": "upper()"
-    },
-    {
-        "question": "What is the output of 5 // 2?",
-        "options": ["2", "2.5", "3", "Error"],
-        "answer": "2"
-    },
-    {
-        "question": "What is the purpose of the 'help()' function?",
-        "options": ["To get help from the Python community", "To display documentation for modules, functions, classes, keywords, etc.", "To find errors in code", "To suggest improvements to code"],
-        "answer": "To display documentation for modules, functions, classes, keywords, etc."
-    }
+    # {
+    #     "question": "What is the output of print({}.get('key', 'default'))?",
+    #     "options": ["None", "key", "default", "Error"],
+    #     "answer": "default"
+    # },
+    # {
+    #     "question": "How do you reverse a list in place?",
+    #     "options": ["list.reverse()", "list.reversed()", "reverse(list)", "list[::-1]"],
+    #     "answer": "list.reverse()"
+    # },
+    # {
+    #     "question": "What does 'assert' keyword do?",
+    #     "options": ["Declares a variable", "Checks if a condition is true, raises an AssertionError if not", "Prints a message", "Skips a block of code"],
+    #     "answer": "Checks if a condition is true, raises an AssertionError if not"
+    # },
+    # {
+    #     "question": "What is the output of print(float(5))?",
+    #     "options": ["5", "5.0", "Error", "0.5"],
+    #     "answer": "5.0"
+    # },
+    # {
+    #     "question": "Which of the following is used to store unique items?",
+    #     "options": ["List", "Tuple", "Set", "Dictionary"],
+    #     "answer": "Set"
+    # },
+    # {
+    #     "question": "What is a generator in Python?",
+    #     "options": ["A function that generates random numbers", "A function that returns an iterator", "A class that generates objects", "A built-in data type"],
+    #     "answer": "A function that returns an iterator"
+    # },
+    # {
+    #     "question": "What is the purpose of 'super()' in class inheritance?",
+    #     "options": ["Calls the current class's method", "Calls the parent class's method", "Calls a global function", "Returns the superclass object"],
+    #     "answer": "Calls the parent class's method"
+    # },
+    # {
+    #     "question": "What is the output of print(list('abc'))?",
+    #     "options": ["['abc']", "['a', 'b', 'c']", "abc", "Error"],
+    #     "answer": "['a', 'b', 'c']"
+    # },
+    # {
+    #     "question": "Which module is commonly used for working with regular expressions?",
+    #     "options": ["regex", "re", "pattern", "match"],
+    #     "answer": "re"
+    # },
+    # {
+    #     "question": "What is a lambda function?",
+    #     "options": ["A named function", "An anonymous function", "A recursive function", "A built-in function"],
+    #     "answer": "An anonymous function"
+    # },
+    # {
+    #     "question": "What is the output of [1, 2, 3][1:3]?",
+    #     "options": ["[1, 2]", "[2, 3]", "[1, 2, 3]", "Error"],
+    #     "answer": "[2, 3]"
+    # },
+    # {
+    #     "question": "Which of the following correctly opens a file for writing in binary mode?",
+    #     "options": ["open('file.txt', 'wb')", "open('file.txt', 'b')", "open('file.txt', 'w+')", "open('file.txt', 'binary')"],
+    #     "answer": "open('file.txt', 'wb')"
+    # },
+    # {
+    #     "question": "What is the purpose of 'dir()' function?",
+    #     "options": ["To get current directory", "To list attributes and methods of an object", "To delete a directory", "To create a directory"],
+    #     "answer": "To list attributes and methods of an object"
+    # },
+    # {
+    #     "question": "What is the output of 'apple'.count('p')?",
+    #     "options": ["1", "2", "3", "0"],
+    #     "answer": "2"
+    # },
+    # {
+    #     "question": "What is the difference between 'is' and '=='?",
+    #     "options": ["'is' checks value, '==' checks identity", "'is' checks identity, '==' checks value", "They are interchangeable", "None of the above"],
+    #     "answer": "'is' checks identity, '==' checks value"
+    # },
+    # {
+    #     "question": "What is a module in Python?",
+    #     "options": ["A single function", "A file containing Python definitions and statements", "A variable type", "A program execution unit"],
+    #     "answer": "A file containing Python definitions and statements"
+    # },
+    # {
+    #     "question": "What is the output of type(1.0)?",
+    #     "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'Decimal'>"],
+    #     "answer": "<class 'float'>"
+    # },
+    # {
+    #     "question": "Which keyword is used to return a value from a function?",
+    #     "options": ["send", "yield", "return", "pass"],
+    #     "answer": "return"
+    # },
+    # {
+    #     "question": "What is list comprehension?",
+    #     "options": ["A way to define a list of functions", "A concise way to create lists", "A method for list manipulation", "A type of list sorting"],
+    #     "answer": "A concise way to create lists"
+    # },
+    # {
+    #     "question": "What is the output of {'a':1, 'b':2}['b']?",
+    #     "options": ["1", "2", "b", "Error"],
+    #     "answer": "2"
+    # },
+    # {
+    #     "question": "Which statement is used to skip the current iteration of a loop?",
+    #     "options": ["break", "pass", "continue", "skip"],
+    #     "answer": "continue"
+    # },
+    # {
+    #     "question": "What is the output of print(tuple([1,2,3]))?",
+    #     "options": ["(1,2,3)", "[1,2,3]", "{1,2,3}", "Error"],
+    #     "answer": "(1,2,3)"
+    # },
+    # {
+    #     "question": "Which function is used to get the current working directory?",
+    #     "options": ["os.cwd()", "os.get_cwd()", "os.getcwd()", "os.current_dir()"],
+    #     "answer": "os.getcwd()"
+    # },
+    # {
+    #     "question": "What is the output of 'Python'.replace('P', 'J', 1)?",
+    #     "options": ["Jython", "python", "Python", "Error"],
+    #     "answer": "Jython"
+    # },
+    # {
+    #     "question": "What is the purpose of 'sys.exit()'?",
+    #     "options": ["To exit a loop", "To exit the Python interpreter", "To exit a function", "To exit a class"],
+    #     "answer": "To exit the Python interpreter"
+    # },
+    # {
+    #     "question": "How do you create a frozen set?",
+    #     "options": ["frozenset([1,2,3])", "frozen_set(1,2,3)", "set.freeze([1,2,3])", "immutable_set([1,2,3])"],
+    #     "answer": "frozenset([1,2,3])"
+    # },
+    # {
+    #     "question": "What is the output of print(bool(1))?",
+    #     "options": ["True", "False", "0", "1"],
+    #     "answer": "True"
+    # },
+    # {
+    #     "question": "Which method is used to remove an item from a dictionary by its key?",
+    #     "options": ["delete()", "remove()", "pop()", "clear()"],
+    #     "answer": "pop()"
+    # },
+    # {
+    #     "question": "What is an argument in a function?",
+    #     "options": ["The return value of the function", "A variable defined inside the function", "A value passed to the function when it's called", "The name of the function"],
+    #     "answer": "A value passed to the function when it's called"
+    # },
+    # {
+    #     "question": "What is the purpose of the 'global' keyword?",
+    #     "options": ["To define a function globally", "To access and modify a global variable from inside a function", "To make a variable accessible only within a function", "To declare a new global variable"],
+    #     "answer": "To access and modify a global variable from inside a function"
+    # },
+    # {
+    #     "question": "What is the output of print('Python'.startswith('P'))?",
+    #     "options": ["True", "False", "Error", "None"],
+    #     "answer": "True"
+    # },
+    # {
+    #     "question": "Which of the following is used to remove whitespace from both ends of a string?",
+    #     "options": ["trim()", "strip()", "remove_whitespace()", "clean()"],
+    #     "answer": "strip()"
+    # },
+    # {
+    #     "question": "What is the default return value of a Python function if no return statement is used?",
+    #     "options": ["0", "An empty string", "None", "True"],
+    #     "answer": "None"
+    # },
+    # {
+    #     "question": "What is the output of print(divmod(10, 3))?",
+    #     "options": ["(3, 1)", "3.33", "1", "Error"],
+    #     "answer": "(3, 1)"
+    # },
+    # {
+    #     "question": "What is the purpose of the 'pass' statement?",
+    #     "options": ["To raise an error", "To act as a placeholder where a statement is syntactically required but no action is desired", "To terminate a loop", "To skip a line of code"],
+    #     "answer": "To act as a placeholder where a statement is syntactically required but no action is desired"
+    # },
+    # {
+    #     "question": "Which method is used to convert all characters in a string to uppercase?",
+    #     "options": ["upper()", "to_upper()", "uppercase()", "capitalize()"],
+    #     "answer": "upper()"
+    # },
+    # {
+    #     "question": "What is the output of 5 // 2?",
+    #     "options": ["2", "2.5", "3", "Error"],
+    #     "answer": "2"
+    # },
+    # {
+    #     "question": "What is the purpose of the 'help()' function?",
+    #     "options": ["To get help from the Python community", "To display documentation for modules, functions, classes, keywords, etc.", "To find errors in code", "To suggest improvements to code"],
+    #     "answer": "To display documentation for modules, functions, classes, keywords, etc."
+    # }
 ]
 
 # -------------------------
