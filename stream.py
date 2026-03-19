@@ -262,257 +262,257 @@ questions = [
         "options": ["Using single quotes ''", "Using double quotes \"\"", "Using triple quotes ''' ''' or \"\"\" \"\"\"", "Using backticks ``"],
         "answer": "Using triple quotes ''' ''' or \"\"\" \"\"\""
     },
-    {
-        "question": "What is the purpose of the 'else' block with a 'for' loop?",
-        "options": ["Executes if the loop is empty", "Executes if the loop completes without a 'break'", "Executes after every iteration", "Executes if an error occurs"],
-        "answer": "Executes if the loop completes without a 'break'"
-    },
-    {
-        "question": "Which of the following is a dynamically typed language?",
-        "options": ["C++", "Java", "Python", "C#"],
-        "answer": "Python"
-    },
-    {
-        "question": "What does 'pip' stand for?",
-        "options": ["Python Install Packages", "Preferred Installer Program", "Package Installer for Python", "Python In Progress"],
-        "answer": "Preferred Installer Program"
+    # {
+    #     "question": "What is the purpose of the 'else' block with a 'for' loop?",
+    #     "options": ["Executes if the loop is empty", "Executes if the loop completes without a 'break'", "Executes after every iteration", "Executes if an error occurs"],
+    #     "answer": "Executes if the loop completes without a 'break'"
+    # },
+    # {
+    #     "question": "Which of the following is a dynamically typed language?",
+    #     "options": ["C++", "Java", "Python", "C#"],
+    #     "answer": "Python"
+    # },
+    # {
+    #     "question": "What does 'pip' stand for?",
+    #     "options": ["Python Install Packages", "Preferred Installer Program", "Package Installer for Python", "Python In Progress"],
+    #     "answer": "Preferred Installer Program"
     
-    },
-    {
-        "question": "What is the output of round(3.7)?",
-        "options": ["3", "4", "3.0", "Error"],
-        "answer": "4"
-    },
-    {
-        "question": "How do you check the type of a variable 'x'?",
-        "options": ["get_type(x)", "typeof(x)", "type(x)", "x.type()"],
-        "answer": "type(x)"
-    },
-    {
-        "question": "What is the purpose of 'sys' module?",
-        "options": ["System administration", "System-specific parameters and functions", "String manipulation", "File operations"],
-        "answer": "System-specific parameters and functions"
-    },
-    {
-        "question": "What is the output of [1, 2, 3][0]?",
-        "options": ["1", "2", "3", "Error"],
-        "answer": "1"
-    },
-    {
-        "question": "Which of the following is NOT a Python built-in function?",
-        "options": ["print()", "len()", "custom_function()", "input()"],
-        "answer": "custom_function()"
-    },
-    {
-        "question": "How do you convert a list to a tuple?",
-        "options": ["list.to_tuple()", "tuple(list)", "as_tuple(list)", "convert_to_tuple(list)"],
-        "answer": "tuple(list)"
-    },
-    {
-        "question": "What is the output of 'hello'.capitalize()?",
-        "options": ["Hello", "hello", "HELLO", "Error"],
-        "answer": "Hello"
-    },
-    {
-        "question": "Which data structure stores key-value pairs?",
-        "options": ["List", "Tuple", "Set", "Dictionary"],
-        "answer": "Dictionary"
-    },
-    {
-        "question": "What is list slicing?",
-        "options": ["Removing elements from a list", "Adding elements to a list", "Extracting a portion of a list", "Sorting a list"],
-        "answer": "Extracting a portion of a list"
-    },
-    {
-        "question": "What is the output of abs(-5)?",
-        "options": ["-5", "5", "0", "Error"],
-        "answer": "5"
-    },
-    {
-        "question": "Which method is used to remove all elements from a list?",
-        "options": ["clear()", "delete_all()", "empty()", "remove_all()"],
-        "answer": "clear()"
-    },
-    {
-        "question": "What is a virtual environment in Python?",
-        "options": ["A cloud server for Python", "An isolated Python environment for projects", "A debugging tool", "A graphics library"],
-        "answer": "An isolated Python environment for projects"
-    },
-    {
-        "question": "What is the output of 10 > 5 or 3 < 1?",
-        "options": ["True", "False", "Error", "None"],
-        "answer": "True"
-    },
-    {
-        "question": "Which of the following is a mutable data type?",
-        "options": ["string", "tuple", "list", "int"],
-        "answer": "list"
-    },
-    {
-        "question": "What does the 'with' statement ensure in file handling?",
-        "options": ["File is always written to", "File is always read", "File is automatically closed", "File is encrypted"],
-        "answer": "File is automatically closed"
-    },
-    {
-        "question": "What is the output of print('Python'[2:5])?",
-        "options": ["tho", "yth", "thon", "Error"],
-        "answer": "tho"
-    },
-    {
-        "question": "Which method is used to add multiple elements to a set?",
-        "options": ["add_all()", "update()", "extend()", "insert_many()"],
-        "answer": "update()"
-    },
-    {
-        "question": "What is the purpose of 'import as'?",
-        "options": ["To import all modules", "To give an alias to an imported module", "To import a module as a different data type", "To import specific functions"],
-        "answer": "To give an alias to an imported module"
-    },
-    {
-        "question": "What is the output of '1' == 1?",
-        "options": ["True", "False", "Error", "None"],
-        "answer": "False"
-    },
-    {
-        "question": "What is the purpose of the 'zip()' function?",
-        "options": ["To compress files", "To combine multiple iterables into an iterator of tuples", "To extract files", "To create a ZIP archive"],
-        "answer": "To combine multiple iterables into an iterator of tuples"
-    },
-    {
-        "question": "What is the output of len({'a':1, 'b':2})?",
-        "options": ["1", "2", "3", "Error"],
-        "answer": "2"
-    },
-    {
-        "question": "Which of the following is a correct way to define a multiline comment?",
-        "options": ["# This is a comment", "/* This is a comment */", "''' This is a comment '''", "// This is a comment"],
-        "answer": "''' This is a comment '''"
-    },
-    {
-        "question": "What does the 'isinstance()' function do?",
-        "options": ["Checks if an object is an instance of a class", "Checks if two objects are identical", "Checks if an object is iterable", "Checks if an object is immutable"],
-        "answer": "Checks if an object is an instance of a class"
-    },
-    {
-        "question": "What is the output of print(type('Hello'))?",
-        "options": ["<class 'int'>", "<class 'str'>", "<class 'float'>", "<class 'bool'>"],
-        "answer": "<class 'str'>"
-    },
-    {
-        "question": "What does a negative index in a list do?",
-        "options": ["Accesses elements from the beginning", "Accesses elements from the end", "Causes an error", "Converts to a positive index"],
-        "answer": "Accesses elements from the end"
-    },
-    {
-        "question": "Which method is used to add an item to a specific position in a list?",
-        "options": ["append()", "add()", "insert()", "put()"],
-        "answer": "insert()"
-    },
-    {
-        "question": "What is the output of 2 ** 3 ** 2?",
-        "options": ["64", "512", "128", "Error"],
-        "answer": "512" # Evaluates as 2 ** (3 ** 2) = 2 ** 9 = 512
-    },
-    {
-        "question": "What is the purpose of a 'try-except' block?",
-        "options": ["To define a new function", "To handle errors and exceptions", "To create a loop", "To declare variables"],
-        "answer": "To handle errors and exceptions"
-    },
-    {
-        "question": "Which function is used to read a whole file's content?",
-        "options": ["read_line()", "read_all()", "read()", "get_content()"],
-        "answer": "read()"
-    },
-    {
-        "question": "What is the output of 'Python'.find('th')?",
-        "options": ["2", "3", "Error", "1"],
-        "answer": "2"
-    },
-    {
-        "question": "What is the purpose of 'yield' keyword?",
-        "options": ["To return a value and terminate a function", "To create a generator", "To raise an exception", "To define a class"],
-        "answer": "To create a generator"
-    },
-    {
-        "question": "How do you get all keys from a dictionary 'my_dict'?",
-        "options": ["my_dict.get_keys()", "my_dict.keys()", "keys(my_dict)", "my_dict.all_keys()"],
-        "answer": "my_dict.keys()"
-    },
-    {
-        "question": "What is the output of [1, 2, 3] + [4, 5, 6]?",
-        "options": ["[1, 2, 3, 4, 5, 6]", "[5, 7, 9]", "Error", "[[1,2,3],[4,5,6]]"],
-        "answer": "[1, 2, 3, 4, 5, 6]"
-    },
-    {
-        "question": "Which of the following is NOT a Python collection type?",
-        "options": ["list", "tuple", "array", "set"],
-        "answer": "array" # 'array' isn't a built-in core type like list, tuple, set, dict. array.array exists but is from a module.
-    },
-    {
-        "question": "What does 'None' represent in Python?",
-        "options": ["Zero", "An empty string", "The absence of a value", "False"],
-        "answer": "The absence of a value"
-    },
-    {
-        "question": "What is the purpose of a constructor in a class?",
-        "options": ["To destroy an object", "To initialize an object's state", "To define class methods", "To inherit from another class"],
-        "answer": "To initialize an object's state"
-    },
-    {
-        "question": "What is the output of print(bool(''))?",
-        "options": ["True", "False", "None", "Error"],
-        "answer": "False"
-    },
-    {
-        "question": "How do you make a copy of a list without affecting the original?",
-        "options": ["list2 = list1", "list2 = list1.copy()", "list2 = list(list1)", "Both B and C"],
-        "answer": "Both B and C"
-    },
-    {
-        "question": "What is a decorator in Python?",
-        "options": ["A design pattern that allows behavior to be added to an object without modifying the object's code", "A type of variable", "A way to comment code", "A built-in function for formatting"],
-        "answer": "A design pattern that allows behavior to be added to an object without modifying the object's code"
-    },
-    {
-        "question": "What is the output of '  hello  '.strip()?",
-        "options": ["hello", "'  hello  '", " 'hello' ", "Error"],
-        "answer": "hello"
-    },
-    {
-        "question": "Which function is used to open a file for writing, creating it if it doesn't exist?",
-        "options": ["open(filename, 'r')", "open(filename, 'w')", "open(filename, 'a')", "create(filename)"],
-        "answer": "open(filename, 'w')"
-    },
-    {
-        "question": "What is the correct syntax for a for loop that iterates from 0 to 4 (inclusive)?",
-        "options": ["for i in range(5):", "for i in range(4):", "for i from 0 to 4:", "loop i in (0, 4):"],
-        "answer": "for i in range(5):"
-    },
-    {
-        "question": "What is an f-string in Python?",
-        "options": ["A file string", "A fast string", "A formatted string literal", "A function string"],
-        "answer": "A formatted string literal"
-    },
-    {
-        "question": "What is the output of 1 + 2 * 3?",
-        "options": ["9", "7", "6", "Error"],
-        "answer": "7"
-    },
-    {
-        "question": "What is the purpose of '__init__' method in a class?",
-        "options": ["To destroy an object", "To initialize an object's attributes", "To print object details", "To define a static method"],
-        "answer": "To initialize an object's attributes"
-    },
-    {
-        "question": "Which method is used to join elements of a list into a string?",
-        "options": ["concat()", "join()", "merge()", "combine()"],
-        "answer": "join()"
-    },
-    {
-        "question": "What is an iterable in Python?",
-        "options": ["An object that can be looped over", "A type of error", "A mathematical function", "A variable name"],
-        "answer": "An object that can be looped over"
-    },
+    # },
+    # {
+    #     "question": "What is the output of round(3.7)?",
+    #     "options": ["3", "4", "3.0", "Error"],
+    #     "answer": "4"
+    # },
+    # {
+    #     "question": "How do you check the type of a variable 'x'?",
+    #     "options": ["get_type(x)", "typeof(x)", "type(x)", "x.type()"],
+    #     "answer": "type(x)"
+    # },
+    # {
+    #     "question": "What is the purpose of 'sys' module?",
+    #     "options": ["System administration", "System-specific parameters and functions", "String manipulation", "File operations"],
+    #     "answer": "System-specific parameters and functions"
+    # },
+    # {
+    #     "question": "What is the output of [1, 2, 3][0]?",
+    #     "options": ["1", "2", "3", "Error"],
+    #     "answer": "1"
+    # },
+    # {
+    #     "question": "Which of the following is NOT a Python built-in function?",
+    #     "options": ["print()", "len()", "custom_function()", "input()"],
+    #     "answer": "custom_function()"
+    # },
+    # {
+    #     "question": "How do you convert a list to a tuple?",
+    #     "options": ["list.to_tuple()", "tuple(list)", "as_tuple(list)", "convert_to_tuple(list)"],
+    #     "answer": "tuple(list)"
+    # },
+    # {
+    #     "question": "What is the output of 'hello'.capitalize()?",
+    #     "options": ["Hello", "hello", "HELLO", "Error"],
+    #     "answer": "Hello"
+    # },
+    # {
+    #     "question": "Which data structure stores key-value pairs?",
+    #     "options": ["List", "Tuple", "Set", "Dictionary"],
+    #     "answer": "Dictionary"
+    # },
+    # {
+    #     "question": "What is list slicing?",
+    #     "options": ["Removing elements from a list", "Adding elements to a list", "Extracting a portion of a list", "Sorting a list"],
+    #     "answer": "Extracting a portion of a list"
+    # },
+    # {
+    #     "question": "What is the output of abs(-5)?",
+    #     "options": ["-5", "5", "0", "Error"],
+    #     "answer": "5"
+    # },
+    # {
+    #     "question": "Which method is used to remove all elements from a list?",
+    #     "options": ["clear()", "delete_all()", "empty()", "remove_all()"],
+    #     "answer": "clear()"
+    # },
+    # {
+    #     "question": "What is a virtual environment in Python?",
+    #     "options": ["A cloud server for Python", "An isolated Python environment for projects", "A debugging tool", "A graphics library"],
+    #     "answer": "An isolated Python environment for projects"
+    # },
+    # {
+    #     "question": "What is the output of 10 > 5 or 3 < 1?",
+    #     "options": ["True", "False", "Error", "None"],
+    #     "answer": "True"
+    # },
+    # {
+    #     "question": "Which of the following is a mutable data type?",
+    #     "options": ["string", "tuple", "list", "int"],
+    #     "answer": "list"
+    # },
+    # {
+    #     "question": "What does the 'with' statement ensure in file handling?",
+    #     "options": ["File is always written to", "File is always read", "File is automatically closed", "File is encrypted"],
+    #     "answer": "File is automatically closed"
+    # },
+    # {
+    #     "question": "What is the output of print('Python'[2:5])?",
+    #     "options": ["tho", "yth", "thon", "Error"],
+    #     "answer": "tho"
+    # },
+    # {
+    #     "question": "Which method is used to add multiple elements to a set?",
+    #     "options": ["add_all()", "update()", "extend()", "insert_many()"],
+    #     "answer": "update()"
+    # },
+    # {
+    #     "question": "What is the purpose of 'import as'?",
+    #     "options": ["To import all modules", "To give an alias to an imported module", "To import a module as a different data type", "To import specific functions"],
+    #     "answer": "To give an alias to an imported module"
+    # },
+    # {
+    #     "question": "What is the output of '1' == 1?",
+    #     "options": ["True", "False", "Error", "None"],
+    #     "answer": "False"
+    # },
+    # {
+    #     "question": "What is the purpose of the 'zip()' function?",
+    #     "options": ["To compress files", "To combine multiple iterables into an iterator of tuples", "To extract files", "To create a ZIP archive"],
+    #     "answer": "To combine multiple iterables into an iterator of tuples"
+    # },
+    # {
+    #     "question": "What is the output of len({'a':1, 'b':2})?",
+    #     "options": ["1", "2", "3", "Error"],
+    #     "answer": "2"
+    # },
+    # {
+    #     "question": "Which of the following is a correct way to define a multiline comment?",
+    #     "options": ["# This is a comment", "/* This is a comment */", "''' This is a comment '''", "// This is a comment"],
+    #     "answer": "''' This is a comment '''"
+    # },
+    # {
+    #     "question": "What does the 'isinstance()' function do?",
+    #     "options": ["Checks if an object is an instance of a class", "Checks if two objects are identical", "Checks if an object is iterable", "Checks if an object is immutable"],
+    #     "answer": "Checks if an object is an instance of a class"
+    # },
+    # {
+    #     "question": "What is the output of print(type('Hello'))?",
+    #     "options": ["<class 'int'>", "<class 'str'>", "<class 'float'>", "<class 'bool'>"],
+    #     "answer": "<class 'str'>"
+    # },
+    # {
+    #     "question": "What does a negative index in a list do?",
+    #     "options": ["Accesses elements from the beginning", "Accesses elements from the end", "Causes an error", "Converts to a positive index"],
+    #     "answer": "Accesses elements from the end"
+    # },
+    # {
+    #     "question": "Which method is used to add an item to a specific position in a list?",
+    #     "options": ["append()", "add()", "insert()", "put()"],
+    #     "answer": "insert()"
+    # },
+    # {
+    #     "question": "What is the output of 2 ** 3 ** 2?",
+    #     "options": ["64", "512", "128", "Error"],
+    #     "answer": "512" # Evaluates as 2 ** (3 ** 2) = 2 ** 9 = 512
+    # },
+    # {
+    #     "question": "What is the purpose of a 'try-except' block?",
+    #     "options": ["To define a new function", "To handle errors and exceptions", "To create a loop", "To declare variables"],
+    #     "answer": "To handle errors and exceptions"
+    # },
+    # {
+    #     "question": "Which function is used to read a whole file's content?",
+    #     "options": ["read_line()", "read_all()", "read()", "get_content()"],
+    #     "answer": "read()"
+    # },
+    # {
+    #     "question": "What is the output of 'Python'.find('th')?",
+    #     "options": ["2", "3", "Error", "1"],
+    #     "answer": "2"
+    # },
+    # {
+    #     "question": "What is the purpose of 'yield' keyword?",
+    #     "options": ["To return a value and terminate a function", "To create a generator", "To raise an exception", "To define a class"],
+    #     "answer": "To create a generator"
+    # },
+    # {
+    #     "question": "How do you get all keys from a dictionary 'my_dict'?",
+    #     "options": ["my_dict.get_keys()", "my_dict.keys()", "keys(my_dict)", "my_dict.all_keys()"],
+    #     "answer": "my_dict.keys()"
+    # },
+    # {
+    #     "question": "What is the output of [1, 2, 3] + [4, 5, 6]?",
+    #     "options": ["[1, 2, 3, 4, 5, 6]", "[5, 7, 9]", "Error", "[[1,2,3],[4,5,6]]"],
+    #     "answer": "[1, 2, 3, 4, 5, 6]"
+    # },
+    # {
+    #     "question": "Which of the following is NOT a Python collection type?",
+    #     "options": ["list", "tuple", "array", "set"],
+    #     "answer": "array" # 'array' isn't a built-in core type like list, tuple, set, dict. array.array exists but is from a module.
+    # },
+    # {
+    #     "question": "What does 'None' represent in Python?",
+    #     "options": ["Zero", "An empty string", "The absence of a value", "False"],
+    #     "answer": "The absence of a value"
+    # },
+    # {
+    #     "question": "What is the purpose of a constructor in a class?",
+    #     "options": ["To destroy an object", "To initialize an object's state", "To define class methods", "To inherit from another class"],
+    #     "answer": "To initialize an object's state"
+    # },
+    # {
+    #     "question": "What is the output of print(bool(''))?",
+    #     "options": ["True", "False", "None", "Error"],
+    #     "answer": "False"
+    # },
+    # {
+    #     "question": "How do you make a copy of a list without affecting the original?",
+    #     "options": ["list2 = list1", "list2 = list1.copy()", "list2 = list(list1)", "Both B and C"],
+    #     "answer": "Both B and C"
+    # },
+    # {
+    #     "question": "What is a decorator in Python?",
+    #     "options": ["A design pattern that allows behavior to be added to an object without modifying the object's code", "A type of variable", "A way to comment code", "A built-in function for formatting"],
+    #     "answer": "A design pattern that allows behavior to be added to an object without modifying the object's code"
+    # },
+    # {
+    #     "question": "What is the output of '  hello  '.strip()?",
+    #     "options": ["hello", "'  hello  '", " 'hello' ", "Error"],
+    #     "answer": "hello"
+    # },
+    # {
+    #     "question": "Which function is used to open a file for writing, creating it if it doesn't exist?",
+    #     "options": ["open(filename, 'r')", "open(filename, 'w')", "open(filename, 'a')", "create(filename)"],
+    #     "answer": "open(filename, 'w')"
+    # },
+    # {
+    #     "question": "What is the correct syntax for a for loop that iterates from 0 to 4 (inclusive)?",
+    #     "options": ["for i in range(5):", "for i in range(4):", "for i from 0 to 4:", "loop i in (0, 4):"],
+    #     "answer": "for i in range(5):"
+    # },
+    # {
+    #     "question": "What is an f-string in Python?",
+    #     "options": ["A file string", "A fast string", "A formatted string literal", "A function string"],
+    #     "answer": "A formatted string literal"
+    # },
+    # {
+    #     "question": "What is the output of 1 + 2 * 3?",
+    #     "options": ["9", "7", "6", "Error"],
+    #     "answer": "7"
+    # },
+    # {
+    #     "question": "What is the purpose of '__init__' method in a class?",
+    #     "options": ["To destroy an object", "To initialize an object's attributes", "To print object details", "To define a static method"],
+    #     "answer": "To initialize an object's attributes"
+    # },
+    # {
+    #     "question": "Which method is used to join elements of a list into a string?",
+    #     "options": ["concat()", "join()", "merge()", "combine()"],
+    #     "answer": "join()"
+    # },
+    # {
+    #     "question": "What is an iterable in Python?",
+    #     "options": ["An object that can be looped over", "A type of error", "A mathematical function", "A variable name"],
+    #     "answer": "An object that can be looped over"
+    # },
     # {
     #     "question": "What is the output of print({}.get('key', 'default'))?",
     #     "options": ["None", "key", "default", "Error"],
